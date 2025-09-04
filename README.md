@@ -1,4 +1,4 @@
-#🎬 Netflix Movie Recommendation System
+# 🎬 Netflix Movie Recommendation System
 
 A machine learning project that builds a personalized recommendation system using the Netflix Prize dataset.
 We use matrix factorization (SVD) with the Surprise library to predict user ratings and recommend top movies.
@@ -98,7 +98,7 @@ output/712664.csv
 
 ```
 # Clone the repository
-git clone https://github.com/your-username/Netflix-Recommendation.git
+git clone https://github.com/Subith-Varghese/netflix-recommendation-system.git
 
 # Navigate to the project directory
 cd Netflix-Recommendation
@@ -107,8 +107,7 @@ cd Netflix-Recommendation
 python -m venv venv
 
 # Activate the virtual environment
-venv\Scripts\activate   # On Windows
-source venv/bin/activate  # On Mac/Linux
+venv\Scripts\activate  
 
 # Install dependencies
 pip install -r requirements.txt
